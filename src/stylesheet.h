@@ -6,7 +6,6 @@
 #include <libxslt/xslt.h>
 #include <libxslt/transform.h>
 #include <libxslt/xsltutils.h>
-#include <libexslt/exslt.h>
 
 class Stylesheet : public Nan::ObjectWrap {
 	public:

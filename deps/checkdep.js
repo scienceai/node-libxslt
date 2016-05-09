@@ -187,5 +187,5 @@ function report(pkg, configs, inputs, archs) {
 
 deps(
     "libxslt",
-    ["config.h", "libxslt/xsltconfig.h", "libexslt/exsltconfig.h"],
+    ["config.h", "libxslt/xsltconfig.h"],
     report);

@@ -7,8 +7,6 @@ var fs = require('fs');
 var libxmljs = require('libxmljs-mt');
 var binding = require('bindings')('node-libxslt');
 
-binding.registerEXSLT();
-
 /**
  * The libxmljs module. Prevents the need for a user's code to require it a second time. Also prevent weird bugs.
  */

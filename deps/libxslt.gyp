@@ -73,30 +73,6 @@
           '<@(xmljs_include_dirs)'
         ],
       }
-    },
-    {
-      'target_name': 'libexslt',
-      'type': 'static_library',
-      'sources': [
-        'libxslt/libexslt/common.c',
-        'libxslt/libexslt/crypto.c',
-        'libxslt/libexslt/date.c',
-        'libxslt/libexslt/dynamic.c',
-        'libxslt/libexslt/exslt.c',
-        'libxslt/libexslt/functions.c',
-        'libxslt/libexslt/math.c',
-        'libxslt/libexslt/saxon.c',
-        'libxslt/libexslt/sets.c',
-        'libxslt/libexslt/strings.c'
-      ],
-      'dependencies': [
-        'libxslt'
-      ],
-      'link_settings': {
-        'libraries': [
-          '<@(xmljs_libraries)'
-        ]
-      }
     }
   ]
 }
